@@ -2,7 +2,7 @@ const { Pool } = require("pg");
 
 // The secret connection string you copied earlier
 const connectionString =
-  "postgres://benoerjb:CWR6iUkB0Uayj69VkQIeaRMygDprSrOJ@hansken.db.elephantsql.com/benoerjb";
+  "postgres://postgres:cB-BbAC56D66G23*g4Ec-24ag*2Aa1A2@postgres.railway.internal:5432/railway";
 
 const pool = new Pool({
   connectionString,
